@@ -26,20 +26,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    directorwindow.cpp \
-    adminwindow.cpp \
-    housemaidwindow.cpp
+    src\adminwindow.cpp \
+    src\directorwindow.cpp \
+    src\housemaidwindow.cpp \
+    src\main.cpp \
+    src\mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h \
-    directorwindow.h \
-    adminwindow.h \
-    housemaidwindow.h
+    include\adminwindow.h \
+    include\directorwindow.h \
+    include\housemaidwindow.h \
+    include\mainwindow.h
 
 FORMS += \
-        mainwindow.ui \
-    directorwindow.ui \
-    adminwindow.ui \
-    housemaidwindow.ui
+    gui\adminwindow.ui \
+    gui\directorwindow.ui \
+    gui\housemaidwindow.ui \
+    gui\mainwindow.ui
